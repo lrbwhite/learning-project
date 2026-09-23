@@ -2,7 +2,7 @@
   "name": "Python + uv 开发环境",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
   "features": {
-    "ghcr.io/astral-sh/features/uv:latest": {}
+    "ghcr.io/astral-sh/features/uv": {}
   },
   "customizations": {
     "vscode": {
