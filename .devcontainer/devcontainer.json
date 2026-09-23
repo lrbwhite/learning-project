@@ -1,9 +1,7 @@
 {
   "name": "Python + uv 开发环境",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
-  "features": {
-    "ghcr.io/astral-sh/features/uv": {}
-  },
+  "postCreateCommand": "curl -LsSf https://astral.sh/uv/install.sh | sh",
   "customizations": {
     "vscode": {
       "extensions": ["ms-python.python"]
